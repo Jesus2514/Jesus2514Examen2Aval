@@ -14,6 +14,7 @@ done < consumo.txt
 
 
 for ciudad in "${!consumos[@]}"; do
+
   # Extraemos la ciudad y el mes
   ciudad_nom=$(echo "$ciudad" | cut -d '-' -f 1)
   mes=$(echo "$ciudad" | cut -d '-' -f 2)
