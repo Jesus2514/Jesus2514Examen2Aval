@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cat consumo.txt | awk 'BEGIN' { max=0; min=999999 }
+cat consumo.txt | awk 'BEGIN' { max=0; min=999999}
 { 
   
   ciudad=$1; mes=$2; anio=$3; consumo=$4;
