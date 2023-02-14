@@ -1,6 +1,7 @@
 #!/bin/bash
 
-ciudad=$1
+echo "Introduce el nombre de la ciudad"
+read ciudad
 
 while true; do
   case $ciudad in
